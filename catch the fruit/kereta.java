@@ -20,31 +20,36 @@ public class kereta extends benda
         }
     }    
        
-    public void objectDisappear() //method objectDisappear
+    public void objectDisappear()
     {
-         if (canSee(lemon.class)) //bila melihat kelas objek banana
+         if (canSee(lemon.class)) 
          {
-             eat(lemon.class); //eat kelas objek banana
-             ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(5); // kelas counter ditambah sebanyak 10 poin
-             Greenfoot.playSound("score.wav"); // mainkan sound score.wav
+             eat(lemon.class); 
+             ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(5); 
+             Greenfoot.playSound("score.wav"); 
          }
-         if (canSee(pisang.class)) //bila melihat kelas objek banana
+         if (canSee(pisang.class)) 
          {
-             eat(pisang.class); //eat kelas objek banana
-             ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(10); // kelas counter ditambah sebanyak 10 poin
-             Greenfoot.playSound("score.wav"); // mainkan sound score.wav
+             eat(pisang.class); 
+             ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(10); 
+             Greenfoot.playSound("score.wav"); 
+         }
+         if (canSee(bom.class)) 
+         {
+             Greenfoot.stop();
+             gameover gover = new gameover();
          }
     }
        
-    public void moveKereta() //method moveMonkey
+    public void moveKereta() 
      {
-         if (Greenfoot.isKeyDown("left")) //bila arah panah ke kiri ditekan
+         if (Greenfoot.isKeyDown("left")) 
          {
-             move(-10); //bergerak ke -10
+             move(-10); 
          }
-         if (Greenfoot.isKeyDown("right")) //bila arah panah ke kanan ditekan
+         if (Greenfoot.isKeyDown("right")) 
          {
-             move(10); //bergerak ke 10
+             move(10); 
          }
      }
 }

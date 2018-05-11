@@ -15,7 +15,6 @@ public class langit extends World
      */
     public langit()
     {    
-        // Buat world dengan ukuran 720x480 cells dengan cell size 1x1 pixels
         super(720, 480, 1);
         lemonjatuh();
         pisangjatuh();
@@ -24,14 +23,14 @@ public class langit extends World
         prepare();
     }
 
-    public void act() //method act
+    public void act()
     {
         if (getObjects(lemon.class).isEmpty()) lemonjatuh();
         if (getObjects(pisang.class).isEmpty()) pisangjatuh();
         if (getObjects(bom.class).isEmpty()) bomjatuh();
     }
 
-    private void siap() //method prepare untuk menentukan posisi dari kelas objek masing-masing
+    private void siap()
     {
         kereta kereta = new kereta();
         addObject(kereta, 648, 403);

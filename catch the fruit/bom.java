@@ -1,4 +1,4 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*; 
 
 /**
  * Write a description of class bom here.
@@ -14,21 +14,20 @@ public class bom extends benda
      */
     public void act() 
     {
-       setLocation(getX(), getY()+5);
+       setLocation(getX(), getY()+8);
        meledak();
     }    
     
-    public void meledak() //method meledak
+    public void meledak()
     {
-         if (canSee(kereta.class)) //bila melihat kelas kereta
+         if (canSee(kereta.class))
          {
-             ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(-1); //kelas Count dikurangi sebanyak 1 poin
-             Greenfoot.playSound("bomb.wav"); //Mainkan sound boom.wav
+             Greenfoot.playSound("bomb.wav");
          }
          
-         if (atWorldEdge())  //bila objek berada di bawah world
+         if (atWorldEdge())
          {
-             getWorld().removeObject(this); //remove object
+             getWorld().removeObject(this);
          }
     }
         

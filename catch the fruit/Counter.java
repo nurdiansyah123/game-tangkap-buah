@@ -1,5 +1,4 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-//import java.awt.Color; //untuk pengaturan warna
+import greenfoot.*;
 
 /**
  * Write a description of class Counter here.
@@ -13,29 +12,29 @@ public class Counter extends Actor
      * Act - do whatever the Counter wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    private int totalCount = 0; // Counter default awal = 0
+    private int totalCount = 0;
     public void act() 
     {
-       gameOver(); //method gameOver
+       gameOver();
     }
     
-    public Counter() //kelas Counter
+    public Counter()
      {
-         setImage(new GreenfootImage("0", 30, Color.WHITE, Color.BLACK)); //membuat tampilan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
+         setImage(new GreenfootImage("0", 30, Color.WHITE, Color.BLACK));
      }
-     public void Counting (int hitung) // method Counting
+     public void Counting (int hitung)
      {
          totalCount += hitung;
-         setImage(new GreenfootImage("" + totalCount, 30, Color.WHITE, Color.BLACK)); //membuat tampilan perubahan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
+         setImage(new GreenfootImage("" + totalCount, 30, Color.WHITE, Color.BLACK)); 
     }
     
-    public void gameOver() //method gameOver
+    public void gameOver()
      {
-         if (totalCount >= 200) //bila totalCount >= 50
+         if (totalCount >= 200) 
          {
-             Greenfoot.stop();  // stop permainan
-             Greenfoot.playSound("hore.wav"); //mainkan sound tada.wav
-             System.out.println("CONGRATULATION WON! Click RESET to play again"); //tampilkan tulisan ini
+             Greenfoot.stop(); 
+             Greenfoot.playSound("hore.wav"); 
+             System.out.println("CONGRATULATION WON! Click RESET to play again"); 
          }
      }
  }

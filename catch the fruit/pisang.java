@@ -1,4 +1,4 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;  
 
 /**
  * Write a description of class pisang here.
@@ -15,16 +15,16 @@ public class pisang extends benda
     private int timer=0;
     public void act() 
     {
-        setLocation(getX(), getY()+6); //posisi objek banana, kecepatan banana = +6
-        pisangFall(); //lakukan method BananaFall
+        setLocation(getX(), getY()+6); 
+        pisangFall(); 
     } 
     
-    public void  pisangFall() //method BananaFall
+    public void  pisangFall() 
      {
-         if (atWorldEdge()) //jika objek banana berada di bawah world
+         if (atWorldEdge()) 
          {
-             getWorld().removeObject(this); // remove objek banana
-             Greenfoot.playSound("lemonfall.wav"); // mainkan sound bananafall.wav
+             getWorld().removeObject(this); 
+             Greenfoot.playSound("lemonfall.wav"); 
          }
      }
 }
