@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Tue May 15 07:14:40 ICT 2018
+#Tue May 15 07:19:47 ICT 2018
 editor.fx.0.height=739
 target2.width=80
 target8.name=pisang
@@ -48,6 +48,7 @@ target5.height=50
 dependency13.type=UsesDependency
 target2.type=ClassTarget
 dependency1.to=kereta
+class.BG_gameover.superclass=greenfoot.World
 dependency3.type=UsesDependency
 target2.height=50
 target2.typeParameters=
@@ -73,6 +74,7 @@ target2.name=kereta
 dependency9.from=langit
 readme.name=@README
 class.gameover.image=game_over.png
+class.BG_gameover.image=1.jpg
 target6.name=benda
 target9.height=50
 dependency10.type=UsesDependency
@@ -143,7 +145,7 @@ readme.y=10
 readme.x=10
 target4.height=50
 readme.height=58
-class.benda.superclass=greenfoot.Actor
 target1.width=80
-class.Counter.image=score.jpg
+class.benda.superclass=greenfoot.Actor
 class.kereta.superclass=benda
+class.Counter.image=score.jpg
