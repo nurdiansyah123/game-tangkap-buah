@@ -70,8 +70,13 @@ editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
+<<<<<<< HEAD
 mainWindow.height=744
 mainWindow.width=1382
+=======
+mainWindow.height=754
+mainWindow.width=1378
+>>>>>>> 5273e8fc13eb059609044f65d7cb30d617911306
 mainWindow.x=-8
 mainWindow.y=-8
 package.numDependencies=14
