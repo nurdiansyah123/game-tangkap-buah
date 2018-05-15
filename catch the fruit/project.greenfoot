@@ -1,24 +1,19 @@
 #Greenfoot project file
-<<<<<<< HEAD
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=bf0edd562ed2b75c38ae79ffb0ebc05213387df8
 class.BG_gameover.image=1.jpg
 class.BG_gameover.superclass=greenfoot.World
-class.Counter.image=score.jpg
-class.Counter.superclass=greenfoot.Actor
-class.benda.superclass=greenfoot.Actor
-class.bom.image=bomb.png
-class.bom.superclass=benda
-class.gameover.image=game_over.png
-class.gameover.superclass=greenfoot.Actor
-=======
 class.Counter.image=score.jpg
 class.Counter.superclass=greenfoot.Actor
 class.Tail.superclass=benda
 class.benda.superclass=greenfoot.Actor
 class.bom.image=bomb.png
 class.bom.superclass=benda
+class.gameover.image=game_over.png
+class.gameover.superclass=greenfoot.Actor
 class.gameover1.image=game_over.png
 class.gameover1.superclass=benda
->>>>>>> bf0edd562ed2b75c38ae79ffb0ebc05213387df8
 class.kereta.image=keranjang-belanja.png
 class.kereta.superclass=benda
 class.langit.image=1.jpg
@@ -50,25 +45,6 @@ dependency14.type=UsesDependency
 dependency2.from=bom
 dependency2.to=Counter
 dependency2.type=UsesDependency
-<<<<<<< HEAD
-dependency3.from=kereta
-dependency3.to=Counter
-dependency3.type=UsesDependency
-dependency4.from=kereta
-dependency4.to=lemon
-dependency4.type=UsesDependency
-dependency5.from=kereta
-dependency5.to=pisang
-dependency5.type=UsesDependency
-dependency6.from=kereta
-dependency6.to=bom
-dependency6.type=UsesDependency
-dependency7.from=kereta
-dependency7.to=gameover
-dependency7.type=UsesDependency
-dependency8.from=BG_gameover
-dependency8.to=gameover
-=======
 dependency3.from=bom
 dependency3.to=Tail
 dependency3.type=UsesDependency
@@ -86,26 +62,18 @@ dependency7.to=bom
 dependency7.type=UsesDependency
 dependency8.from=kereta
 dependency8.to=gameover1
->>>>>>> bf0edd562ed2b75c38ae79ffb0ebc05213387df8
 dependency8.type=UsesDependency
 dependency9.from=langit
 dependency9.to=lemon
 dependency9.type=UsesDependency
-<<<<<<< HEAD
-editor.fx.0.height=476
-editor.fx.0.width=816
-editor.fx.0.x=255
-editor.fx.0.y=70
-=======
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=275
-editor.fx.0.y=30
->>>>>>> bf0edd562ed2b75c38ae79ffb0ebc05213387df8
-mainWindow.height=754
-mainWindow.width=1378
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+mainWindow.height=744
+mainWindow.width=1382
 mainWindow.x=-8
-mainWindow.y=22
+mainWindow.y=-8
 package.numDependencies=14
 package.numTargets=10
 project.charset=UTF-8
@@ -114,11 +82,7 @@ readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
-<<<<<<< HEAD
-simulation.speed=44
-=======
 simulation.speed=47
->>>>>>> bf0edd562ed2b75c38ae79ffb0ebc05213387df8
 target1.height=50
 target1.name=bom
 target1.showInterface=false
@@ -128,11 +92,7 @@ target1.width=80
 target1.x=0
 target1.y=0
 target10.height=50
-<<<<<<< HEAD
-target10.name=gameover
-=======
 target10.name=pisang
->>>>>>> bf0edd562ed2b75c38ae79ffb0ebc05213387df8
 target10.showInterface=false
 target10.type=ClassTarget
 target10.typeParameters=
@@ -156,17 +116,6 @@ target3.width=80
 target3.x=0
 target3.y=0
 target4.height=50
-<<<<<<< HEAD
-target4.name=BG_gameover
-target4.showInterface=false
-target4.type=ClassTarget
-target4.typeParameters=
-target4.width=100
-target4.x=0
-target4.y=0
-target5.height=50
-target5.name=Counter
-=======
 target4.name=Counter
 target4.showInterface=false
 target4.type=ClassTarget
@@ -176,7 +125,6 @@ target4.x=0
 target4.y=0
 target5.height=50
 target5.name=gameover1
->>>>>>> bf0edd562ed2b75c38ae79ffb0ebc05213387df8
 target5.showInterface=false
 target5.type=ClassTarget
 target5.typeParameters=
@@ -192,11 +140,7 @@ target6.width=80
 target6.x=0
 target6.y=0
 target7.height=50
-<<<<<<< HEAD
-target7.name=benda
-=======
 target7.name=Tail
->>>>>>> bf0edd562ed2b75c38ae79ffb0ebc05213387df8
 target7.showInterface=false
 target7.type=ClassTarget
 target7.typeParameters=
@@ -204,11 +148,7 @@ target7.width=80
 target7.x=0
 target7.y=0
 target8.height=50
-<<<<<<< HEAD
-target8.name=langit
-=======
 target8.name=benda
->>>>>>> bf0edd562ed2b75c38ae79ffb0ebc05213387df8
 target8.showInterface=false
 target8.type=ClassTarget
 target8.typeParameters=
@@ -216,11 +156,7 @@ target8.width=80
 target8.x=0
 target8.y=0
 target9.height=50
-<<<<<<< HEAD
-target9.name=pisang
-=======
 target9.name=langit
->>>>>>> bf0edd562ed2b75c38ae79ffb0ebc05213387df8
 target9.showInterface=false
 target9.type=ClassTarget
 target9.typeParameters=
@@ -228,8 +164,4 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
-<<<<<<< HEAD
-world.lastInstantiated=BG_gameover
-=======
 world.lastInstantiated=langit
->>>>>>> bf0edd562ed2b75c38ae79ffb0ebc05213387df8
