@@ -10,9 +10,9 @@ public class bom extends benda
 {
     
     private final int EAST = 0;
-    private final int SOUTH = 20;
-    private final int WEST = 30;
-    private final int NORTH = 40;
+    private final int SOUTH = 30;
+    private final int WEST = 60;
+    private final int NORTH = 80;
     
     private final int SPEED = 15;
     private int counter = 0;
