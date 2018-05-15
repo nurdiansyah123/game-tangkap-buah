@@ -37,7 +37,8 @@ public class kereta extends benda
          if (canSee(bom.class)) 
          {
              Greenfoot.stop();
-             gameover gover = new gameover();
+             gameover1 gover = new gameover1();
+             getWorld().addObject(gover, getWorld().getWidth()/2, getWorld().getHeight()/2);
          }
     }
        
