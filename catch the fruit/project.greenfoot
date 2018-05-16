@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=bf0edd562ed2b75c38ae79ffb0ebc05213387df8
+>>>>>>>=5273e8fc13eb059609044f65d7cb30d617911306
 class.BG_gameover.image=1.jpg
 class.BG_gameover.superclass=greenfoot.World
 class.Counter.image=score.jpg
@@ -66,17 +66,12 @@ dependency8.type=UsesDependency
 dependency9.from=langit
 dependency9.to=lemon
 dependency9.type=UsesDependency
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-<<<<<<< HEAD
-mainWindow.height=744
-mainWindow.width=1382
-=======
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=217
+editor.fx.0.y=46
 mainWindow.height=754
 mainWindow.width=1378
->>>>>>> 5273e8fc13eb059609044f65d7cb30d617911306
 mainWindow.x=-8
 mainWindow.y=-8
 package.numDependencies=14

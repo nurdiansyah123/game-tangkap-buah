@@ -58,7 +58,7 @@ private void moveAround()
     counter ++;
     if (counter==SPEED) {
         getWorld().addObject( new Tail(foodEaten*SPEED), getX(), getY() );
-        move(1);
+        move(2);
         counter = 0;
     }
     if (Greenfoot.isKeyDown("right") ) {
