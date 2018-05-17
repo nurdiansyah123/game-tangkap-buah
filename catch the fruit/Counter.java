@@ -30,7 +30,7 @@ public class Counter extends Actor
     
     public void gameOver()
      {
-         if (totalCount >= 1000) 
+         if (totalCount >= 1500) 
          {
              Greenfoot.stop(); 
              Greenfoot.playSound("hore.wav"); 
