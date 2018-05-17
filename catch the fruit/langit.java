@@ -27,7 +27,7 @@ public class langit extends World
     {
         if (getObjects(lemon.class).isEmpty()) lemonjatuh();
         if (getObjects(pisang.class).isEmpty()) pisangjatuh();
-        if (getObjects(bom.class).isEmpty()) bomjatuh();
+        if (getObjects(bom1.class).isEmpty()) bomjatuh();
     }
 
     private void siap()
@@ -62,7 +62,7 @@ public class langit extends World
     {
         if(Greenfoot.getRandomNumber(2) < 50)
         {
-            addObject(new bom(), Greenfoot.getRandomNumber(519),21);
+            addObject(new bom1(), Greenfoot.getRandomNumber(519),21);
         }
     }
 

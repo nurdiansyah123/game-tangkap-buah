@@ -34,12 +34,13 @@ public class kereta extends benda
              ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(9); 
              Greenfoot.playSound("score.wav"); 
          }
-         if (canSee(bom.class)) 
+         if (canSee(bom1.class)) 
          {
              Greenfoot.stop();
              gameover1 gover = new gameover1();
-             getWorld().addObject(gover, getWorld().getWidth()/2, getWorld().getHeight()/2);
+             getWorld().addObject(gover, getWorld().getWidth()/2, getWorld().getHeight()/2); 
          }
+         
     }
        
     public void moveKereta() 
