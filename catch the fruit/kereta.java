@@ -47,12 +47,11 @@ public class kereta extends benda
      {
          if (Greenfoot.isKeyDown("left")) 
          {
-             move(-11); 
+             move(-10); 
          }
          if (Greenfoot.isKeyDown("right")) 
          {
-             move(11); 
+             move(10); 
          }
-     }
-}
+     }}
 

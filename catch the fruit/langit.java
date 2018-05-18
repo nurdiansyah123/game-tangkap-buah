@@ -39,7 +39,7 @@ public class langit extends World
         nilai nilai = new nilai();
         addObject(nilai, 64, 44);
         nilai.setLocation(59, 44);
-        kereta.setLocation(373, 403);
+        kereta.setLocation(373, 460);
     }
 
     public void lemonjatuh() 

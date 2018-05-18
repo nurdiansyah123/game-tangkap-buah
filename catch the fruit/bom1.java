@@ -15,7 +15,7 @@ public class bom1 extends benda
     private int timer=0;
     public void act() 
     {
-        setLocation(getX(), getY()+6); 
+        setLocation(getX(), getY()+7); 
         LemonFall(); 
     } 
     
