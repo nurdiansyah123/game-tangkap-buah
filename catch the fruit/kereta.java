@@ -25,13 +25,13 @@ public class kereta extends benda
          if (canSee(lemon.class)) 
          {
              eat(lemon.class); 
-             ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(9); 
+             ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(8); 
              Greenfoot.playSound("score.wav"); 
          }
          if (canSee(pisang.class)) 
          {
              eat(pisang.class); 
-             ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(15); 
+             ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(12); 
              Greenfoot.playSound("score.wav"); 
          }
          if (canSee(bom1.class)) 
