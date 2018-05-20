@@ -31,14 +31,15 @@ public class kereta extends benda
          if (canSee(pisang.class)) 
          {
              eat(pisang.class); 
-             ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(15); 
+             ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(6); 
              Greenfoot.playSound("score.wav"); 
          }
          if (canSee(bom1.class)) 
          {
              Greenfoot.stop();
              gameover1 gover = new gameover1();
-             getWorld().addObject(gover, getWorld().getWidth()/2, getWorld().getHeight()/2); 
+             getWorld().addObject(gover, getWorld().getWidth()/2, getWorld().getHeight()/2);
+             Greenfoot.playSound("bomb1.wav");
          }
          
     }
@@ -47,11 +48,11 @@ public class kereta extends benda
      {
          if (Greenfoot.isKeyDown("left")) 
          {
-             move(-10); 
+             move(-11); 
          }
          if (Greenfoot.isKeyDown("right")) 
          {
-             move(10); 
+             move(11); 
          }
      }}
 

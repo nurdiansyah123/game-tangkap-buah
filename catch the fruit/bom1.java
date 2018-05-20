@@ -15,7 +15,7 @@ public class bom1 extends benda
     private int timer=0;
     public void act() 
     {
-        setLocation(getX(), getY()+7); 
+        setLocation(getX(), getY()+8); 
         LemonFall(); 
     } 
     
@@ -24,7 +24,6 @@ public class bom1 extends benda
          if (atWorldEdge()) 
          {
              getWorld().removeObject(this); 
-             Greenfoot.playSound("lemonfall.wav"); 
          }
      }
 }

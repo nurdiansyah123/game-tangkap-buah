@@ -12,7 +12,7 @@ public class pisang extends benda
      * Act - do whatever the pisang wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    private int timer=0;
+    private int timer=2;
     public void act() 
     {
         setLocation(getX(), getY()+7); 
