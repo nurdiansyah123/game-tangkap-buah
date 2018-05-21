@@ -15,7 +15,7 @@ public class lemon extends benda
     private int timer=0;
     public void act() 
     {
-        setLocation(getX(), getY()+5); 
+        setLocation(getX(), getY()+6); 
         LemonFall(); 
     } 
     
