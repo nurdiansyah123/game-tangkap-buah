@@ -34,7 +34,20 @@ public class kereta extends benda
              ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(8);
              Greenfoot.playSound("score.wav"); 
          }
+         if (canSee(apel.class)) 
+         {
+             eat(apel.class); 
+             ((Counter)getWorld().getObjects(Counter.class).get(0)).Counting(7);
+             Greenfoot.playSound("score.wav"); 
+         }
          if (canSee(bom1.class)) 
+         {
+             Greenfoot.stop();
+             gameover1 gover = new gameover1();
+             getWorld().addObject(gover, getWorld().getWidth()/2, getWorld().getHeight()/2);
+             Greenfoot.playSound("bomb1.wav");
+         }
+         if (canSee(bom2.class)) 
          {
              Greenfoot.stop();
              gameover1 gover = new gameover1();

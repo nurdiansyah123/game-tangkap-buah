@@ -20,12 +20,12 @@ public class Counter extends Actor
     
     public Counter()
      {
-         setImage(new GreenfootImage("0", 30, Color.WHITE, Color.BLACK));
+         setImage(new GreenfootImage("0", 40, Color.BLUE, Color.RED));
      }
      public void Counting (int hitung)
      {
          totalCount += hitung;
-         setImage(new GreenfootImage("" + totalCount, 30, Color.WHITE, Color.BLACK)); 
+         setImage(new GreenfootImage("" + totalCount, 40, Color.BLUE, Color.RED)); 
     }
     
     public void gameOver()
